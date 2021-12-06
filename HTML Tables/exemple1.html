@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Creating Tables in HTML</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+        }
+
+        table caption{
+            caption-side: bottom;
+        }
+    </style>
+</head>
+<body>
+    <h2>HTML Table (Default Style)</h2>
+    <table>
+        <caption>User info</caption>
+        <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th colspan="2">Phone</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>El Yahyaoui Oubay</td>
+            <td>22</td>
+            <td>0600000000</td>
+            <td>0611111111</td>
+        </tr>
+        
+    </table>
+</body>
+</html
